@@ -1,0 +1,41 @@
+@media (min-width: 1200px){
+ .container{
+    max-width: 1365px;
+}
+}
+
+@media (max-width: 992px) {
+    .header .navbar .container-fluid .collapse .navbar-nav .nav-item .news:hover .news-content{
+        display: none;
+    }
+    .header .navbar .container-fluid .collapse .navbar-nav .nav-item .teams:hover .teams-content{
+        display: none;
+    }
+    .header .navbar .container-fluid .collapse .navbar-nav .nav-item .matches:hover .matches-content{
+        display: none;
+    }
+    .header .navbar .container-fluid .collapse .navbar-nav .nav-item .tickets:hover .ticket-content{
+        display: none;
+    }
+    .header .navbar .container-fluid .collapse .navbar-nav .nav-item .shop:hover .shop-content{
+        display: none;
+    }
+    .header .navbar .container-fluid .collapse .navbar-nav .nav-item .history:hover .history-content{
+        display: none;
+    }
+    .header .navbar .container-fluid .collapse .navbar-nav .nav-item .club:hover .club-content{
+        display: none;
+    }
+    .header .navbar .container-fluid .collapse .navbar-nav .nav-item .fans:hover .fans-content{
+        display: none;
+    }
+    .header .logo img{
+        width: 100%;
+    }
+    .header{
+        display: none;
+    }
+    .sidebar{
+        display: block;
+    }
+}
